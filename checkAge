@@ -1,0 +1,11 @@
+//practice with if loops using age
+
+function checkAge(name, age) {
+  if (age < 21){ //checking to see if your age is under 21
+    var hi = ("Go home, " + name + "!"); //defining a variable that says, if you are under 21, "Go gome {enter name here}!"
+    return hi; //returning that variable (could make these past two lines into one line, but I didn't think of it at the time)
+}  else if (age >= 21){ //checking to see if you are or if you are over the age of 21
+    var hi = ("Welcome, " + name + "!"); //defining a variable that says, if you are or are over 21, "Welcome, (enter name here)!"
+    return hi; //returning that variable
+  }
+}
