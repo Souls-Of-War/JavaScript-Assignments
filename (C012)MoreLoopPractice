@@ -1,0 +1,24 @@
+//Write a JavaScript function which iterates the integers from 1 to n. BUT... for multiples of 3 add "Owasso" to the array instead of the number and for the multiples of five, add "Rams" to the array
+
+function owassoRams(n){
+  count = 1;
+  hello = [];
+  while (count < n+1){
+    if (count%3 === 0 && count%5 === 0){
+      hello.push("OwassoRams");
+      count++;
+    } else if (count%3 === 0){
+      hello.push("Owasso");
+      count++;
+  } else if (count%5 === 0){
+    hello.push("Rams");
+    count++;
+  }else{
+    hello.push(count);
+    count++;
+  }
+  }
+  return (hello)
+}
+
+owassoRams(15);
