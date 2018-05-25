@@ -1,0 +1,11 @@
+//Create a times table going from 0 to 10
+
+for (i = 0; i < 11; i++){
+  mult = 0;
+  console.log(i + " TIMES TABLE");
+  while (mult < 11){
+    console.log(i+" x "+mult+" = "+mult*i+"");
+    mult+=1;
+  }
+//  console.log("\n");
+}
