@@ -1,0 +1,10 @@
+//Given a natural number (a whole number greater than 0), "computeFactorialOfN" returns its factorial
+
+function computeFactorialOfN(n) {
+  //your code here
+  total=1;
+  for(i=1;i<n;i++){
+    total+=total*i;
+  }
+  return total;
+}
