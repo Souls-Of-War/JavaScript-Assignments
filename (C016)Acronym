@@ -1,0 +1,14 @@
+//Converts a phrase to its acronym
+
+function acronymMaker(str){
+  arr = str.split(" ");
+  var hi = [];
+  for(i=0;i<arr.length;i++){
+    hi.push(arr[i].substring(0,1));
+
+  }
+  return hi.toString();
+}
+
+output = acronymMaker("Portable Network Graphics");
+console.log(output);
